@@ -1,0 +1,49 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+/* 리셋파일을 우리가 쓸 용도로만 수정했음. */
+
+:root {
+	--main-color: #183B35;
+	--mainDark-color: #102C28;
+	--accent-color: #C9A86A;
+	--bg-color: #F8F5EF;
+	--surface-color: #FFFCF7;
+
+	--gray1: #787878;
+	--gray2: #929292;
+	--gray3: #CACACA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; 
+}
+
+html {font-size: 62.5%;} /* 16px이 기본인데, 10px로 바꿈 */
+
+body {
+  line-height: 1;
+  font-family: "Quicksand", arial, sans-serif;
+	color: #202522;
+	line-height: 1;
+	overflow-x: hidden;  /* 아래 가로 스크롤바 생김 방지! */
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+	max-width: 100%; /* 원래 내 크기보다 커지지 않게 함 */
+	vertical-align: middle;
+}  
+a {
+  text-decoration: none;
+  color: inherit;
+}
